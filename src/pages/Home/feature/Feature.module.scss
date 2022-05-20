@@ -1,0 +1,83 @@
+.bodys {
+    margin: 160px 300px 0;
+    position: relative;
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+.Titles {
+
+    h2 {
+        text-align: center;
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+        font-size: 34px;
+        line-height: 39px;
+
+        /* identical to box height */
+        letter-spacing: 0.0075em;
+
+        /* Grayscale/Black - 90 */
+        color: #2E3032;
+    }
+
+    margin-block-end: 20px;
+}
+
+.Component_container{
+    margin-top: 3%;
+    margin-right: 4%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Upper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.UpperLe{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 80px;
+}
+
+.ImgIcon{
+    width: 200px;
+    height: 200px;
+}
+
+.Texts_Left{
+    margin-left: 121px;
+    line-height: 26px;
+    width: 100%;
+}
+
+.Texts_Right{
+    margin-right: 121px;
+    line-height: 26px;
+    width: 100%;
+}
+
+.H1s{
+    margin-block-end: 24px;
+    line-height: 30px;
+}
+
+.TextsDetail{
+    width: 100%;
+    line-height: 26px;
+    color: #2E3032;
+}
+
+.bacbrod2{
+    position: absolute;
+    bottom: -20px;
+    z-index: -90;
+    left: 0;
+}

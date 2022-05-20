@@ -1,0 +1,17 @@
+.container{
+    width: 100vw;
+    // padding: 0 247px;
+
+    .bacbrod1 {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        z-index: -99;
+
+        img{
+            object-fit: contain;
+            width: 100%;
+        }
+    }
+}
+

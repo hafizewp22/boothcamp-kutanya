@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    align-items: center;
+    margin: 0 247px;
+
+    .logo{
+        margin-top: 26px;
+        img{
+            height: 38px;
+            width: 137.88571166992188px;
+            border-radius: 0px;
+        }
+    }
+
+    .navigation{
+        margin-left: 235px;
+        padding-top: 20px;
+        display: flex;
+        gap: 45px;
+
+        .topnav_centered a{
+            float: left;
+            color: #764F14;
+            text-align: center;
+            text-decoration: none;
+            font-size: 17px;
+        }
+    }
+}

@@ -1,0 +1,62 @@
+@use '../../../../styles/Colors' as color;
+
+.container{
+    width: 256px;
+    height: 210px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.04), 0px 4px 24px rgba(0, 0, 0, 0.08);
+    padding: 16px;
+
+    h2{
+        font-size: 16px;
+    }
+
+    .list{
+        margin-top: 32px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        background-color: white;
+
+        button{
+            background-color: color.$background_gray;
+            width: 30px;
+            height: 30px;
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #8C8F93;
+            font-weight: 500;
+            cursor: pointer;
+        }
+
+    }
+
+    .boxButton{
+        display: flex;
+        justify-content: center;
+        
+        button{
+            background-color: color.$background_gray;
+            margin-top: 16px;
+            color: #8C8F93;
+            font-weight: 500;
+            width: 214px;
+            height: 30px;
+            border-radius: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .active{
+            background-color: color.$main_color;
+            color:color.$main_color_dark;
+            font-weight: 500;
+        }
+    }
+
+
+}

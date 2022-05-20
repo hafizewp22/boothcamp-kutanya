@@ -1,0 +1,29 @@
+@use '../../styles/Colors' as color;
+
+.container{
+    background-color: color.$main_color;
+    width: 100vw;
+    height: 209px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    button{
+        background: transparent;
+        border: 0;
+        position: absolute;
+        left: 98px;
+        cursor: pointer;
+
+        &:active{
+            transform: translateY(5%);
+        }
+    }
+
+    .titile{
+        font-size: 48px;
+        color: color.$main_color_dark;
+        font-weight: 700;
+        text-align: center;
+    }
+}

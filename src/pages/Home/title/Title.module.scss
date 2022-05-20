@@ -1,0 +1,26 @@
+.bodys {
+   margin-top: 132px;
+   width: 487px;
+   margin: 132px 247px 0;
+
+   .TitleText p{
+       font-weight: 700;
+       font-size: 48px;
+       color: #764F14;
+   }
+
+   .TitleTextDetails{
+       font-size: 20px;
+       color: #764F14;
+       margin-left: 10px;
+    }
+    
+    button{
+         margin-left: 10px;
+        background: linear-gradient(180deg, #AA80F9 0%, #756CE0 100%);
+        border-radius: 6px;
+        margin-top: 24px;
+        color: white;
+        width: 267px;
+   }
+}

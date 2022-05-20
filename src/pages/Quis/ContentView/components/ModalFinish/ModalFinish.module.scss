@@ -1,0 +1,66 @@
+@use '../../../../../styles/Colors' as color;
+
+.container{
+    width: 300px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+
+    .btnExit{
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 30px;
+        background-color: transparent;
+        border: 0;
+        padding: 10px;
+        cursor: pointer;
+        color: color.$main_color_dark;
+
+        &:active{
+            transform: translateY(3%);
+        }
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        min-width: 300px;
+        min-height: 300px;
+
+        .boxTitle{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 20px;
+
+            .title{
+                text-align: center;
+                font-weight: 700;
+                margin-bottom: 30px;
+            }
+
+            .subtitle{
+                font-size: 13px;
+                color: rgb(66, 66, 66);
+                text-align: center;
+            }
+        }
+
+        .boxBtn{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+
+            .btn{
+                width: 100px;
+            }
+        }
+    }
+}

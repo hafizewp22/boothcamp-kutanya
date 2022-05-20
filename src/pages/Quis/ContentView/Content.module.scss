@@ -1,0 +1,45 @@
+.container{
+    width: 994px;
+    display: flex;
+    padding: 35px 0px;
+    gap: 25px;
+
+    .left{
+        width: 256px;
+        gap: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right{
+        width: 683px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+
+        .footer{
+            background: #FFFFFF;
+            /* Elevation 3 */
+            box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.04), 0px 4px 24px rgba(0, 0, 0, 0.08);
+            border-radius: 16px;
+            padding: 27px 34px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .nav{
+                font-size: 28px;
+                color: #764F14;
+                cursor: pointer;
+
+                &:active{
+                    transform: translateY(3%);
+                }
+            }
+
+            .count{
+                font-weight: 500;
+            }
+        }
+    }
+}
